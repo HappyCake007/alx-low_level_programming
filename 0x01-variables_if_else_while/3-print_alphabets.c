@@ -7,6 +7,7 @@
  *
  * Return: Alway 0 (Success)
  */
+
 int main(void)
 {
 	char low;
