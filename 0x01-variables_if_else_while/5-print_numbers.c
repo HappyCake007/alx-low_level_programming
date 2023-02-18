@@ -14,14 +14,10 @@
 
 int main(void)
 {
-	char c = '0';
+	int n;
 
-	while (c <= '9')
-	{	
-		putchar(c);
-		c++;
-	}
-
+	for (n = 0; n < 10; n++)
+		putchar(n);
 	putchar('\n');
 	return (0);
 }
