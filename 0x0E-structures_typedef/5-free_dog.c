@@ -8,7 +8,7 @@
  * Return: no return
  */
 
-void free_dog(dog_doggie *d)
+void free_dog(dog_t *d)
 {
 	if (d)
 	{
